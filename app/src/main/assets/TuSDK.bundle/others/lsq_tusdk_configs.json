@@ -1,4 +1,122 @@
 {
+    "filterGroups":[
+        {
+            "file":"lsq_filter_Lomo_2.gfilter",
+            "name":"lsq_filter_group_Lomo",
+            "default_filter_id":21,
+            "filters":[
+                {
+                    "id":21,
+                    "name":"lsq_filter_Lomo",
+                    "color":"#0091FF",
+                    "args":{
+                        "mixied":0.6
+                    }
+                },
+                {
+                    "id":22,
+                    "name":"lsq_filter_Clear",
+                    "color":"#0091FF",
+                    "args":{
+                        "mixied":0.6
+                    }
+                },
+                {
+                    "id":23,
+                    "name":"lsq_filter_Morning",
+                    "color":"#0091FF",
+                    "args":{
+                        "mixied":0.75
+                    }
+                },
+                {
+                    "id":24,
+                    "name":"lsq_filter_Newborn",
+                    "color":"#0091FF",
+                    "args":{
+                        "mixied":0.7
+                    }
+                },
+                {
+                    "id":25,
+                    "name":"lsq_filter_Artistic",
+                    "color":"#0091FF",
+                    "args":{
+                        "mixied":0.7
+                    }
+                }
+            ]
+        },
+        {
+            "file":"lsq_filter_Beauty_6.gfilter",
+            "name":"lsq_filter_group_Beauty",
+            "default_filter_id":61,
+            "filters":[
+                {
+                    "id":61,
+                    "name":"lsq_filter_SkinNature",
+                    "color":"#E9807E",
+                    "args":{
+                        "smoothing":0.3
+                    }
+                },
+                {
+                    "id":62,
+                    "name":"lsq_filter_SkinPink",
+                    "color":"#E9807E",
+                    "args":{
+                        "smoothing":0.5,
+                        "mixied":0.3
+                    }
+                },
+                {
+                    "id":63,
+                    "name":"lsq_filter_SkinJelly",
+                    "color":"#E9807E",
+                    "args":{
+                        "smoothing":0.6,
+                        "mixied":0.4
+                    }
+                },
+                {
+                    "id":64,
+                    "name":"lsq_filter_SkinNoir",
+                    "color":"#E9807E",
+                    "args":{
+                        "smoothing":0.5,
+                        "mixied":1
+                    }
+                },
+                {
+                    "id":65,
+                    "name":"lsq_filter_SkinRuddy",
+                    "color":"#E9807E",
+                    "args":{
+                        "smoothing":0.45,
+                        "mixied":0.25
+                    }
+                },
+                {
+                    "id":66,
+                    "name":"lsq_filter_SkinSugar",
+                    "color":"#E9807E",
+                    "args":{
+                        "smoothing":0.6,
+                        "mixied":0.3
+                    }
+                },
+                {
+                    "id":67,
+                    "name":"lsq_filter_SkinPowder",
+                    "color":"#E9807E",
+                    "args":{
+                        "smoothing":0.45,
+                        "mixied":0.4
+                    }
+                }
+            ]
+        }
+    ],
     "stickerCategories":[
         {
             "id":1,
@@ -16,7 +134,6 @@
     "stickerGroups":[
         {
             "file":"lsq_sticker_2_567.gsce",
-            "valid_key":"83c4d846f171d8db",
             "name":"\u5632\u8bbd\u5c11\u5973",
             "stickers":[
                 {
@@ -47,7 +164,6 @@
         },
         {
             "file":"lsq_sticker_1_544.gsce",
-            "valid_key":"7c53800e6a2e01e4",
             "name":"\u8214\u5c4f",
             "stickers":[
                 {
@@ -78,7 +194,6 @@
         },
         {
             "file":"lsq_sticker_3_491.gsce",
-            "valid_key":"fb308fdc2067eee9",
             "name":"\u5149\u9634\u6545\u4e8b",
             "stickers":[
                 {
@@ -109,7 +224,6 @@
         },
         {
             "file":"lsq_sticker_3_458.gsce",
-            "valid_key":"01f3786e379faa25",
             "name":"\u5fc3\u60c5\u901f\u5199",
             "stickers":[
                 {
@@ -138,5 +252,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "master":"zjNU8klnZXCXOLRU+38T5ZoVDQAsZ\/MckBUIJobN3Y86k\/DK\/\/LTnsqflx3M+hIqGo9mTQezTE2j2JNcxq3VTKz5OjpUdNlgKB6EYIAAi9sOFPGnEKXwWzT\/kHCm0ia+Zk5sKtIz9EP4\/6SFBSZv17tN4g2q0xRX6k4p\/9WnjZPtuHxPiwpIt5bp\/VxgHVNDweu7Qb\/VZyjxW7IiessP+4QN0RQbWIvz6qrCfdulKm9WxF0ywmIoN7p5TGzOri4by6B3X0KmuXJDxbcP\/YimT5o8ne3lhzxBg3+qFIBaELGcD0Kq9HEAvc7bBaxn109jhqX1DQbxX\/KzOgjSHSc92ud642jFpji7qjiG9mKhVd4a\/yTFoYYobT7e4mrXInd07HhFMiJm4YseQF\/4opcSUjxj+i0Yc4V+UBZOFDuasCCu8SFgoHXDcnI7unNaoWRzxD8EhWJYkTT68SAB4Pzr3WnupLhIjsCibKpSI68RDQKP5fGjLplpARSJbnszkJc7HwWwH60rREm9xuwwGzLYxMbbu6NRmIo6zjXrIzjw1WhcvkOGyoGHpsouK59aW2IZyGpyP6p65\/j97L0BhOmieqbGUqPnW5pOrwhjvIIeHmpDrwXuiwqRGaj5cmr\/sgdUD49F5EBF1C"
 }
